@@ -1,13 +1,10 @@
 import java.util.ArrayList;
-import java.util.Random;
 
 public class Arrayliste {
 
-  Random ran = new Random();
-
   private String bob;
-  private String hej;
-  private String Nej;
+  private String Kim;
+  private String John;
   private String string;
 
   public static void main(String[] args) {
@@ -20,9 +17,9 @@ public class Arrayliste {
 
     ArrayList<String> arrey = new ArrayList<>();
 
-    arrey.add(hej);
     arrey.add(bob);
-    arrey.add(Nej);
+    arrey.add(bob);
+    arrey.add(John);
     arrey.add(string);
 
     doesArraylistContainString(arrey, string);
@@ -37,6 +34,7 @@ public class Arrayliste {
 
     } else {
 
+      arrey.add(string);
       System.out.println("prøv igen");
       return false;
 

@@ -45,7 +45,7 @@ public class Sortering {
         }
       }
     }
-    System.out.println("Stringene er sorteret i orden: ");
+    System.out.println("Stringene er sorteret i alfabetisk orden: ");
     for(int i = 0; i <= counts - 1; i++) {
       System.out.println(str[i] + ", ");
     }
