@@ -1,9 +1,7 @@
 import java.util.ArrayList;
-import java.util.Random;
 
 public class bibliotek {
 
-  Random ran = new Random();
   Bog bg = new Bog();
 
   void go() {
