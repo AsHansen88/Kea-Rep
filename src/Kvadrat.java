@@ -19,7 +19,7 @@ public class Kvadrat {
 
   public void kvadrat(){
 
-    System.out.println("Se et kvadrat: ");
+    System.out.println("skriv et tal for størrelsen på et kvadrat: ");
 
     side = scan.nextInt();
 
